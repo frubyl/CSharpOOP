@@ -1,0 +1,29 @@
+BankAccounts:
+- Id: 07d3eaa3-bb5b-4502-898c-36f4cedfe4ab
+  Name: Account1
+  Balance: 1500
+- Id: c4989b2e-6221-4398-bc91-c0b679f05fe1
+  Name: Account2
+  Balance: 500
+Categories:
+- Id: 08e21564-e128-47cb-b263-8c1520a3ab41
+  Name: Salary
+  Type: Income
+- Id: e8621d31-6e7f-408b-8180-553921e7e321
+  Name: Groceries
+  Type: Expense
+Operations:
+- Id: 01b1cc07-db15-45d1-aca3-029ee30ce8be
+  Type: Income
+  BankAccountId: 07d3eaa3-bb5b-4502-898c-36f4cedfe4ab
+  Amount: 2000
+  Date: 2025-03-20T23:24:26.6957485+03:00
+  Description: Salary for last month
+  CategoryId: 08e21564-e128-47cb-b263-8c1520a3ab41
+- Id: 301b7308-01da-475f-baaf-950536eaf407
+  Type: Expense
+  BankAccountId: 07d3eaa3-bb5b-4502-898c-36f4cedfe4ab
+  Amount: 500
+  Date: 2025-03-20T23:24:26.6957505+03:00
+  Description: Grocery shopping
+  CategoryId: e8621d31-6e7f-408b-8180-553921e7e321

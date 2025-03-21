@@ -1,0 +1,14 @@
+BankAccounts
+Id,Name,Balance
+1bacffee-f56c-49b8-91fd-d89667763df6,Account1,1500
+212a9fc8-7295-476f-aa3c-25a0a9f4dbe5,Account2,500
+
+Categories
+Id,Name,Type
+be2c1122-887e-4482-a535-cf5ee5ca81e4,Salary,Income
+1f541e7a-ae90-4d4c-9f89-09a6bc409101,Groceries,Expense
+
+Operations
+Id,Type,BankAccountId,Amount,Date,CategoryId,Description
+d2ae5f4c-4d41-41f2-94e8-e55b45bed6d4,Income,1bacffee-f56c-49b8-91fd-d89667763df6,2000,15.03.2025 16:07:22,be2c1122-887e-4482-a535-cf5ee5ca81e4,Salary for last month
+3f48bc79-ab0c-4c09-9d55-61f3608ae66a,Expense,1bacffee-f56c-49b8-91fd-d89667763df6,500,17.03.2025 16:07:22,1f541e7a-ae90-4d4c-9f89-09a6bc409101,Grocery shopping
