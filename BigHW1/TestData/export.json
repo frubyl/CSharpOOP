@@ -1,0 +1,46 @@
+{
+  "BankAccounts": [
+    {
+      "Id": "a1199269-5436-46ba-b085-c48f18a54878",
+      "Name": "Account1",
+      "Balance": 1500.0
+    },
+    {
+      "Id": "88bc20bf-eb0e-4f4c-b5d8-cc05229c5f67",
+      "Name": "Account2",
+      "Balance": 500.0
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "26e34402-2d9c-42ba-b171-7a6a326671a7",
+      "Name": "Salary",
+      "Type": "Income"
+    },
+    {
+      "Id": "1ea3c139-af12-46f0-8937-0261f7158378",
+      "Name": "Groceries",
+      "Type": "Expense"
+    }
+  ],
+  "Operations": [
+    {
+      "Id": "1eda339e-6110-464b-a61f-5f56a169c996",
+      "Type": "Income",
+      "BankAccountId": "a1199269-5436-46ba-b085-c48f18a54878",
+      "Amount": 2000.0,
+      "Date": "2025-03-15T23:52:07.151618+03:00",
+      "Description": "Salary for last month",
+      "CategoryId": "26e34402-2d9c-42ba-b171-7a6a326671a7"
+    },
+    {
+      "Id": "b65c3e2d-cf89-4bd4-895f-6911807003d1",
+      "Type": "Expense",
+      "BankAccountId": "a1199269-5436-46ba-b085-c48f18a54878",
+      "Amount": 500.0,
+      "Date": "2025-03-17T23:52:07.1573465+03:00",
+      "Description": "Grocery shopping",
+      "CategoryId": "1ea3c139-af12-46f0-8937-0261f7158378"
+    }
+  ]
+}
